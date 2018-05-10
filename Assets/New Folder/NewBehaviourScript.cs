@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour {
     public GameObject target;
-    privet Vector3 offset;
+    private Vector3 offset;
 	// Use this for initialization
 	void Start () {
      offset = transform.position - target.transform.position;
